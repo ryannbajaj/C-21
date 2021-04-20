@@ -30,7 +30,7 @@ if(isTouch(movingRect, wall))
   {
 
     movingRect.velocityX = 0
-    movingRect.shapeColor = "green"
+    movingRect.shapeColor = "red"
 
 }
 
