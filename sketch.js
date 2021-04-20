@@ -9,6 +9,7 @@ function setup() {
 fixedRect = createSprite(400,200,60,60);
 movingRect = createSprite(100,200,30,30);
 wall = createSprite(0,200,1,400);
+wall.shapeColor = "black"
 fixedRect.debug=true
 movingRect.debug=true
 movingRect.velocityX = 4
